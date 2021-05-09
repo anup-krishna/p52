@@ -1,0 +1,124 @@
+
+.menu{
+    justify-content: space-btween;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: white;
+    align-content: "center";
+}
+
+body a:visited{
+  color:purple;
+ }
+
+ body a:link{
+  color:blue;
+ }
+
+ body a{
+  text-decoration: none;
+ }
+
+ body img{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+ .text1{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+ }
+
+  .grid{
+    
+    justify-content:space-between;
+    flex-wrap:wrap;
+    display:flex;
+      border:2px solid black;
+      border-radius: 70px;
+        }
+
+  .origami1{
+    width:500px;
+    position:relative;
+      border-radius:20px;     
+      font-family: fantasy;
+      margin-top: 100px;
+      background-color: #23bd15;
+  }
+  
+  .origami2{
+    width:500px;
+    position:relative;
+      border-radius:20px;     
+      font-family: fantasy;
+      margin-top: 100px;
+      background-color: #e7269d;
+  }
+  .origami3{
+    width:500px;
+    position:relative;
+      border-radius:20px;    
+      font-family: fantasy;
+      margin-top: 100px;
+      background-color: #abcdef;
+  }
+  .origami4{
+    width:500px;
+    position:relative;
+      border-radius:20px;    
+      font-family: fantasy;
+      margin-top: 100px;
+      background-color: #e1ff5d;
+  }
+  .origami5{
+    width:500px;
+    position:relative;
+      border-radius:20px;     
+      font-family: fantasy;
+      margin-top: 100px;
+      background-color: #a1b2c3;
+  }
+  .origami6{
+    width:500px;
+    position:relative;
+      border-radius:20px;    
+      font-family: fantasy;
+      margin-top: 100px;
+      background-color: #4af9e1;
+  }
+  .grid img{
+    justify-content:space-between;
+    display: flex;
+    flex-wrap:wrap;
+    position:relative;
+    display:flex;
+    flex-wrap:wrap;
+      border:2px solid black;
+      border-radius: 50px
+        }
+.origami1:hover{
+      transform: scale(1.2);
+}
+.origami2:hover{
+  transform: scale(1.2);
+}
+.origami3:hover{
+  transform: scale(1.2);
+}
+.origami4:hover{
+  transform: scale(1.2);
+}
+.origami5:hover{
+  transform: scale(1.2);
+}
+.origami6:hover{
+  transform: scale(1.2);
+}
+
+  
